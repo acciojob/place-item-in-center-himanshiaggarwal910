@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-.holder {
+/* .holder {
     display: flex;           
     justify-content: center;  
     align-items: center;     
@@ -9,11 +9,28 @@
 }
 
 /* Apply these styles to item-1 */
-.item-1 {
+/* .item-1 {
     width: 100px;            
     height: 100px;           
     background-color: red;    
     display: flex;           
     justify-content: center; 
     align-items: center;      
-}
+} 
+ */
+ *{
+            padding: 0;
+            margin: 0;
+        }
+        .holder{
+            height: 100vh;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item-1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
